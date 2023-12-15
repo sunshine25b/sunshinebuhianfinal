@@ -1,4 +1,3 @@
-Certainly! Here's an example of an HTML code for an online shopping website design with 10 navigation links:
 
  
 <!DOCTYPE html>
@@ -7,7 +6,50 @@ Certainly! Here's an example of an HTML code for an online shopping website desi
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Online Shopping Website</title>
-  <link rel="stylesheet" href="styles.css">
+  <style>
+    body{
+      background-color: rgb(0, 0, 0);
+    }
+    ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+  border-right:1px solid #bbb;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+footer{
+  color: wheat;
+  position: absolute;
+  top: 90%;
+}
+h1{
+  color: white;
+  position: relative;
+  left: 35%;
+  top: 40%;
+}
+  </style>
 </head>
 <body>
   <header>
@@ -28,18 +70,12 @@ Certainly! Here's an example of an HTML code for an online shopping website desi
   </header>
 
   <main>
-    <!-- Rest of the website content goes here -->
+    <h1>Online Shopping Website</h1>
   </main>
+  
 
   <footer>
     <p>&copy; 2023 Online Shopping Website. All rights reserved.</p>
   </footer>
 </body>
 </html>
- 
-
-In this example, the HTML code includes a navigation menu with 10 links to different sections of the website. The links include "Home," "Products," "Categories," "Cart," "Contact," "About Us," "Deals," "FAQ," "Shipping," and "Returns."
-
-You can customize the link text and add additional navigation links as per your website's requirements. Additionally, you can style the navigation menu using CSS to match your desired design.
-
-Feel free to modify and enhance this HTML code to suit your specific online shopping website design needs. Happy coding!
